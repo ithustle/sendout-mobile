@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_comprar_credito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compra_credito_sms"
+        android:textSize="13dp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:id="@+id/cred"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/sms_na_conta"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="#fff"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="13dp"
+        android:text="@string/compra_texto_credito"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pacotes"
+            android:text="25 SMS"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="7dp"/>
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pacotes"
+            android:text="50 SMS"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="7dp"/>
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pacotes"
+            android:text="100 SMS"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:gravity="center|bottom"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_de_compra"
+            android:text="@string/compra_botao_comprar"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:paddingTop="2dp"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:layout_marginRight="7dp"
+            android:id="@+id/botao_pacote_100" />
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_de_compra"
+            android:text="@string/compra_botao_comprar"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:paddingTop="2dp"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:layout_marginRight="7dp"
+            android:id="@+id/botao_pacote_200" />
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_de_compra"
+            android:text="@string/compra_botao_comprar"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:paddingTop="2dp"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:id="@+id/botao_pacote_500" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compra_mais_opt"
+            android:layout_marginTop="10dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lista_info" />
+
+    </LinearLayout>
+
+</LinearLayout>

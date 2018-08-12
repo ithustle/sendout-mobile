@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_procura_contactos"
+        android:icon="@drawable/ic_find_contacts"
+        android:title="procura"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/menu_actualiza_contactos"
+        android:title="@string/menu_actualizar_contactos"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+</menu>

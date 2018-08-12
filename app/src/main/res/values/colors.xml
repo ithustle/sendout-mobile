@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e17c0b</color>
+    <color name="colorPrimaryDark">#39393b</color>
+    <color name="colorAccent">#E17C0B</color>
+    <color name="colorSplash">#ff8942</color>
+    <color name="botaoShared">#ff8339</color>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_logotipo"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/login_contente_layout"
+        android:layout_marginBottom="@dimen/logo_distancia_content_login"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:id="@+id/login_contente_layout">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numero_telefone_login"
+            android:hint="@string/register_numero_telefone"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:padding="15dp"
+            android:inputType="phone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/senha_login"
+            android:hint="@string/login_senha"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:padding="15dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/welcome_button"
+            android:text="@string/text_button_welcome"
+            android:onClick="entrar"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

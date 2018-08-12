@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_contact_photo"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/lista_foto"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de telefone"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:id="@+id/historico_numero"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/lista_foto"
+        android:layout_toRightOf="@+id/lista_foto"
+        android:layout_toEndOf="@+id/lista_foto" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Texto preview da mensagems enviada"
+        android:paddingLeft="8dp"
+        android:textSize="14sp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:id="@+id/sms_historico_preview"
+        android:layout_below="@+id/historico_numero"
+        android:layout_toRightOf="@+id/lista_foto"
+        android:layout_toEndOf="@+id/lista_foto"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="1dp" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(2)"
+        android:textSize="16sp"
+        android:id="@+id/quantidade_sms_historico"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_alignBaseline="@+id/historico_numero"
+        android:layout_alignBottom="@+id/historico_numero"
+        android:layout_toRightOf="@+id/historico_numero"
+        android:layout_toEndOf="@+id/historico_numero" />-->
+
+</RelativeLayout>

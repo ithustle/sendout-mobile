@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_chamada_em_curso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:background="@color/colorPrimary"
+        android:alpha="0.8"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chamada_id"
+            android:textColor="#F6F6F6"
+            android:text="@string/chamada_sendout"
+            android:textSize="@dimen/texto_chamada"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chamada_destinatario"
+            android:layout_below="@+id/chamada_id"
+            android:textColor="#F3F8F8"
+            android:ellipsize="end"
+            android:lines="1"
+            android:singleLine="true"
+            android:editable="false"
+            android:scrollHorizontally="true"
+            android:textSize="30sp"/>
+
+        <Chronometer
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chamada_destinatario"
+            android:textColor="#F9F9F9"
+            android:visibility="invisible"
+            android:id="@+id/chronometer"
+            android:textSize="@dimen/texto_chamada"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chamada_tempo"
+            android:text="@string/ligar"
+            android:layout_below="@+id/chamada_destinatario"
+            android:textColor="#F9F9F9"
+            android:textSize="@dimen/texto_chamada"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:id="@+id/foto_chamada"
+            android:src="@drawable/img_profile"
+            android:alpha="0.8"
+            android:background="#ccc" />
+
+        <Button
+            android:layout_width="56dip"
+            android:layout_height="56dip"
+            android:onClick="desligarChamada"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/botao_desligar_chamada"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:alpha="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="speakerOn"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_high_volume_96"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mute"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_microphone_filled_100"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

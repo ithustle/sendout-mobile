@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_perfil"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_above="@+id/radio_group"
+        android:layout_marginBottom="30dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/radio_group">
+
+        <RadioButton
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/opt_perfil_pessoal"
+            android:textSize="18sp"
+            android:id="@+id/opt_perfil_pesssoal"
+            android:background="#ccffffff"
+            android:paddingTop="20dp"
+            android:onClick="escolhePerfil"
+            android:paddingBottom="20dp"/>
+
+        <RadioButton
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/opt_perfil_empresa"
+            android:textSize="18sp"
+            android:id="@+id/opt_perfil_empresa"
+            android:background="#ccffffff"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:onClick="escolhePerfil"
+            android:layout_marginTop="0.5dp"/>
+    </RadioGroup>
+
+</RelativeLayout>

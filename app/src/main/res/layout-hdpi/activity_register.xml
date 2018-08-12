@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:scaleType="centerCrop">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/register_text_info"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="7dp"
+        android:textColor="#fff"
+        android:hint="@string/register_pais"
+        android:inputType="none"
+        android:editable="false"
+        android:textColorHint="#fff"
+        android:id="@+id/registar_seleciona_pais"
+        android:freezesText="true"
+        android:allowUndo="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:focusable="false"
+            android:textColor="#fff"
+            android:paddingLeft="7dp"
+            android:id="@+id/registar_indicativo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#fff"
+            android:hint="@string/register_numero_telefone"
+            android:textColorHint="#fff"
+            android:textSize="18sp"
+            android:paddingLeft="7dp"
+            android:inputType="phone"
+            android:id="@+id/registar_numero_de_telefone"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="@string/register_nome"
+        android:textColorHint="#fff"
+        android:paddingLeft="7dp"
+        android:id="@+id/registar_nome"
+        android:inputType="textPersonName|textCapWords"
+        android:maxLines="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/welcome_button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/text_button_welcome"
+        android:textSize="18sp"
+        android:id="@+id/registar_botao_continuar"/>
+
+</LinearLayout>

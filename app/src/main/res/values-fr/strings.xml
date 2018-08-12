@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ECRÃS  -->
+
+    <string name="app_name">SendOut</string>
+    <string name="contactos">Contacts Téléphonique</string>
+    <string name="sms">Nouveaux Message</string>
+    <string name="settings">Paramètres</string>
+    <string name="history">Historique</string>
+    <string name="acerca">Sur SendOut</string>
+    <string name="compra_credito">Achat du crédit</string>
+    <string name="resgatar">Recupére</string>
+    <string name="selecionar_pais">Localizer son Pays</string>
+    <string name="confirma_conta">Confirmer le code</string>
+
+    <!-- TELA DE BEM-VINDO  -->
+
+    <string name="text_welcome">Bievenu sur SendOut</string>
+    <string name="termos">En Continuer de clinquant vous acceptez nos Conditions et Terminologie.</string>
+    <string name="text_button_welcome">Continuer</string>
+
+    <!-- TELA DE REGISTO  -->
+    <string name="country">Localizer son Pays</string>
+    <string name="register_text_info">Localizer son Pays, introdui ton numero de téléphone et ton nom (En cas d\'organisation, utilisez un nom unique de 11 caractères et sans espace) pur assinature du message et continuer a cliquer </string>
+
+    <!-- TELA DE CONFIRMAÇÃO DE CÓDIGO  -->
+
+    <string name="activacao">Activacion du compte</string>
+    <string name="activacao_texto_info">Fu envoyér un nouveau code de activacion sur ton téléphone . Prière, d\'écrire en bas:</string>
+
+    <!-- TELA DE COMPRAR CRÉDITO  -->
+
+    <string name="compra_credito_sms">Ton crédit</string>
+    <string name="compra_texto_credito">Additionner ton Crédit</string>
+    <string name="compra_botao_comprar">Acheter</string>
+    <string name="compra_mais_opt">Plus d\'options</string>
+
+    <!-- TELA DE RESGATE  -->
+
+    <string name="regaste_saldo_disponivel">Crédit disponible</string>
+    <string name="resgate_botao">Charger</string>
+
+    <!-- TELA DE SETTINGS  -->
+
+    <string name="settings_acerca">Sur</string>
+    <string name="settings_credito">Mon crédit</string>
+    <string name="settings_comprar">Achater crédits</string>
+    <string name="settings_comprar_voz">Voice Pack</string>
+    <string name="settings_numero">Mon número</string>
+
+    <!-- TELA DE ABOUT  -->
+
+    <string name="about_copy_right">&#169;2016 Kwanza Online, Lda</string>
+
+    <!-- PLACEHOLDERS  -->
+
+    <string name="register_pais">Votre pays</string>
+    <string name="register_numero_telefone">Nº de téléphone</string>
+    <string name="register_nome">Première et dernier nom</string>
+
+    <string name="mensagem_nova">Numéro de téléphone avec le code pays</string>
+    <string name="mensagem_texto_sms">Message...</string>
+
+    <string name="activacao_texto_codigo">Code d\'activation</string>
+
+    <string name="findContact">Trouver un contact&#8230;</string>
+
+    <string name="resgate_codigo">Code du carte KO</string>
+
+
+    <!-- CAIXAS DE DIÁLOGOS  -->
+
+    <string name="dialogo_carregar_titulo_sms">Achat SMS</string>
+    <string name="dialogo_adicionar_titulo_credito">Ajouter fonds dans la portefeuille</string>
+    <string name="dialogo_registar_titulo_conta">Registre de compte</string>
+    <string name="dialogo_activar_conta_titulo">Activation de compte</string>
+    <string name="dialogo_titulo_enviar_sms">S\'il vous plaît, attendre!</string>
+
+    <string name="dialogo_carregar_texto"> Le faire l\'achat... S\'il vous plaît, attendre!</string>
+    <string name="dialogo_adicionar_credito_texto">Chargement de votre portefeuuille... S\'il vous plaît, attendre!</string>
+    <string name="dialogo_registar_texto">Le registre de compte... S\'il vous plaît, attendre!</string>
+    <string name="dialogo_activar_conta_texto">L\'activation du compte...</string>
+    <string name="dialogo_enviar_sms">Envoi...</string>
+
+    <string name="dialogo_carregar_contactos">Chargement de votres contacts ... S\'il vous plaît, attendre!</string>
+    <string name="dialogo_actualizar_contactos"> Refraîchir la liste des contacts ... S\'il vous plaît, attendre!</string>
+
+    <string name="dialogo_titulo_metodo_pagamento">Payment method</string>
+    <string name="dialogo_google_wallet">Google Wallet</string>
+    <string name="dialogo_credito_carteira">SendOut wallet</string>
+
+    <string name="dialogo_titulo_foto">Ajouter une photo...</string>
+    <string name="dialogo_camera_foto">Prendre une photo</string>
+    <string name="dialogo_galeria_foto">Choisissez parmi la bibliothèque</string>
+    <string name="dialogo_cancela_foto">Annuler</string>
+
+    <!-- TOASTES  -->
+
+    <string name="toast_enviar_sms_validade">Vos messages ont atteint la date d\'expiration. Rechargez votre compte pour continuer à envoyer.</string>
+    <string name="toast_enviar_sms_enviada">Message envoyé.</string>
+    <string name="toast_enviar_sms_falhou">Le message n\'pas envoyer.</string>
+
+    <string name="toast_codigo_inserido_falhou">Le code inséré ce n\'pas correct.</string>
+
+    <string name="toast_carregamento_falhou">Impossible de charger. Vérifie que bien typé. Si l\'erreur persiste, Contactez-nous.</string>
+    <string name="toast_carregamento_sucesso">Chargement effectué avec succès.</string>
+
+    <string name="toast_compra_sucesso">Votre achat été fini avec succès.</string>
+    <string name="toast_compra_falhou">Votre achat a échoué. Check contient suffisamment de portefeuuille de crédit .</string>
+
+    <string name="toast_internet_falhou">Assurez-vous que votre appareil est connecté à Internet.</string>
+
+    <string name="toast_enviar_sms_vazia">You can not send a blank sms.</string>
+    <string name="toast_saldo">Your balance available for SMS and Voice</string>
+    <string name="toast_meu_numero">your phone number is</string>
+
+    <string name="toast_registar_pais">Select your country</string>
+    <string name="toast_registar_telefone">Enter your phone number</string>
+    <string name="toast_registar_nome">Enter your first and last name</string>
+    <string name="toast_registar_aviso_numero">The phone number that you have entered doesn\'t match with SIM card phone number.</string>
+    <string name="toast_registar_aviso_numero_null">Please, insert a SIM card into your device!</string>
+
+
+    <!-- MENU -->
+
+    <string name="menu_historico">Historique</string>
+    <string name="menu_config">Paramètres</string>
+    <string name="menu_actualizar_contactos">Refraîchir les contacts</string>
+
+    <string name="toast_pemissao">Vous devez autoriser SendOut à lire l\'état de votre téléphone pour fonctionner correctement.</string>
+    <string name="call">Ligar</string>
+    <string name="chamada_sendout">APPEL PAR SENDOUT</string>
+    <string name="toast_compra_cancelada">Acheter cancelada</string>
+    <string name="ligar">Appel ...</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="menu_nova_mensagem">Ecrire un message</string>
+
+    <!-- CALLER ID -->
+
+    <string name="texto_intro_register_caller_id"> Avant de commencer à faire des appels, vous devez vous inscrire votre numéro de téléphone afin que les gens puissent vous identifier Que quand ils reçoivent votre appel. Avant de continuer, suivez les étapes ci-dessous </string>
+    <string name="texto_passos_register_caller_id"> 1. Lorsque vous appuyez sur Continuer, vous recevrez un code; \n2. Après avoir reçu le code, vous recevrez un appel; \n3. Après avoir entendu la voix dans l\'appel entrez le code. </string>
+    <string name="texto_botao_register_caller_id"> Continuer </string>
+    <string name="texto_obs_register_caller_id"> Vous devez disposer d\'un crédit de voix sendout pour continuer. </string>
+    <string name="codigo_caller_id"> Code de confirmation </string>
+    <string name="texto_codigo_bla"> Entrez le code ci-dessus après que l\'appelant de la voix que vous allez recevoir les pauses de la parole. Ne pas quitter cet écran sans confirmer l\'enregistrement. </string>
+    <string name="finalizar_caller_id_registo"> Fait </string>
+    <string name="dialogo_chamadas_inicio_titulo"> Démarrage </string>
+    <string name="dialogo_chamadas_inicio_texto"> Vérifier votre qualiity réseau ... S\'il vous plaît, attendez! </string>
+
+    <string name="compra_texto_credito_voz"> Appel vocal minute </string>
+    <string name="contacts"> Contactez-nous </string>
+    <string name="compra_credito_voz"> Votre crédit vocal </string>
+    <string name="historico_chamada_title"> Historique des appels </string>
+    <string name="suporte_email"> Votre email </string>
+    <string name="suporte_assunto"> Comment pouvons-nous vous aider? </string>
+    <string name="suporte_mensagem"> Votre message </string>
+    <string name="suporte_title"> Contactez-nous </string>
+    <string name="suporte_nome"> Votre nom </string>
+    <string name="dialogo_enviar_email"> Envoi </string>
+    <string name="dialogo_enviar_texto"> Envoi ... S\'il vous plaît, attendez! </string>
+    <string name="toast_envio_email"> Email envoyé. Merci de nous envoyer un mail. </string>
+    <string name="toast_envio_email_falhou"> Echec de l\'envoi de courrier électronique. Veuillez réessayer plus tard. </string>
+    <string name="registo_caller"> Registre d\'identification de l\'appelant </string>
+    <string name="menu_campanha"> Campagne </string>
+    <string name="opt_perfil_pessoal"> Profil personnel </string>
+    <string name="opt_perfil_empresa"> Profil d\'entreprise (BÊTA) </string>
+    <string name="label_perfil"> Choisissez votre profil </string>
+    <string name="login_senha"> Mot de passe </string>
+    <string name="dialogo_login_title"> Se connecter </string>
+
+    <string name="dialogo_login_texto">Vérifier votre accont ... S\'il vous plaît, attendez</string>
+    <string name="toast_login_falhou"> Votre numéro de téléphone ou votre mot de passe sont erronés. Peut-être que vous n\'avez pas encore de compte. Veuillez réessayer. </string>
+    <string name="toast_campanha_aviso"> Disponible uniquement en profil d\'entreprise </string>
+    <string name="toast_toast_sem_credito_voz"> Vous n\'avez aucune voix de crédit SendOut sur votre portefeuille. Veuillez en acheter un pour continuer. </string>
+    <string name="dialogo_title_campanha"> Campagne </string>
+    <string name="dialogo_texto_campanha"> Chargement de la campagne ... Veuillez patienter. </string>
+    <string name="toast_enviar_sms_campanha"> Votre campagne s\'est propagée avec succès. </string>
+    <string name="dialogo_pagar_ko"> ACHETER </string>
+    <string name="texto_dialgo_ok"> Ce paiement sera facturé sur votre Wallet SendOut. Appuyez sur \ "Acheter \" pour terminer cette transaction. </string>
+    <string name="dialog_ko_pacote_25"> 100 SMS Package </string>
+    <string name="dialog_ko_pacote_50"> Paquet SMS 50 </string>
+    <string name="dialog_ko_pacote_100"> Paquet SMS 100 </string>
+    <string name="dialog_ko_pacote_15"> Pack d\'appels vocaux 15 </string>
+    <string name="dialog_ko_pacote_30"> Ensemble d\'appels vocaux 30 </string>
+    <string name="dialog_ko_pacote_60"> Ensemble d\'appels vocaux 60 </string>
+    <string name="toast_chamada_credito_insuficiente"> Vous n\'avez pas de crédits suficients. Veuillez acheter plus de crédits pour continuer à faire des appels </string>
+    <string name="toast_chamada_validade_expirada"> Vos crédits ont atteint la date limite. Veuillez acheter plus de crédits pour continuer à faire des appels </string>
+    <string name="tarifas_caller_id"> Registre de l\'identifiant de l\'appelant </string>
+    <string name="tarifas_chamada_nacional"> Appels locaux </string>
+    <string name="tarifas_chamada_internacional"> Appel international </string>
+    <string name="tarifas_chamada"> 1 appel / 1 min </string>
+    <string name="tarifas"> 1 min </string>
+    <string name="tarifas_minuto"> 1 min </string>
+    <string name="tarifas_detalhe"> Plus de détails </string>
+    <string name="tarifas_title"> Taux d\'appel </string>
+    <string name="tarifas_detalhes"> Nous faisons de notre mieux pour vérifier si les numéros de téléphone sont valides et aussi essayer de vous faire économiser de l\'argent en refusant d\'appeler les numéros que nous savons sont impossibles. Cependant, nous avons découvert qu\'il est préférable pour nous de croire que nos utilisateurs en savent plus sur les numéros de téléphone qu\'ils essaient d\'appeler que nous. Par défaut, SendOut ne "écoute" pas vos appels. Cela signifie que le système SendOut est capable de savoir si le son est transféré ou non, et ne va généralement pas prendre des actions basées sur le contenu de cet audio. En bref, SendOut considère qu\'un appel doit être terminé si les données audio sont retournées, même si ces données audio sont un message hors service. </string>
+    <string name="tarifas_detalhe_title"> Plus de détails </string>
+    <string name="tarifas_sms_nacional"> Envoyer des SMS locaux </string>
+    <string name="tarifas_sms_internacional"> Envoyer un SMS international </string>
+    <string name="tarifas_sms"> 1 SMS / SMS </string>
+    <string name="sms_numero_errado"> Numéro de téléphone non valide. Veuillez vérifier si vous avez mis correctement.</string>
+    <string name="detalhe_sms_tarifa"> Taux Sms </string>
+    <string name="hint_numero_discar">format international</string>
+    <string name="confirma_callerid">Identification de l\'appelant</string>
+    <string name="toast_registar_telefone_tamanho">Your sender ID only must have 11 characters.</string>
+    <string name="toast_chamada_indisponivel">Appel non disponible pour le profil de l\'organisation pour le moment.</string>
+    <string name="slogan">Keep in touch</string>
+    <string name="marca_registada"><![CDATA[2016 &#169; Kwanza Online Trademark]]></string>
+    <string name="rate_text">Évaluez la qualité de votre appel téléphonique</string>
+    <string name="rate_button_text">Envoyer</string>
+    <string name="rate_button_not_now">Pas maintenant</string>
+    <string name="sp_nome">S\'il vous plaît entrez votre nom</string>
+    <string name="sp_email">Entrez votre email</string>
+    <string name="sp_assunto">S\'il vous plaît, dites à votre sujet</string>
+    <string name="sp_mensagem">Veuillez nous envoyer un courriel</string>
+    <string name="registo_caller_status">Identification de l\'appelant</string>
+    <string name="dialogo_caller_id">Recevoir le code ... Veuillez patienter</string>
+    <string name="texto_warning">ATTENTION!!</string>
+    <string name="texto_passos_warning">Assurez-vous que vous avez un stylo ou un crayon pour noter le code que vous recevez. Si vous ne terminez pas cette étape, vous ne pourrez pas téléphoner.</string>
+    <string name="texto_passos_warning_continue">Appuyez sur Continuer si vous êtes prêt</string>
+    <string name="texto_escolha_registo">Caller ID</string>
+    <string name="texto_escolha_registo_2">Il existe deux façons d\'identifier votre appel sortant lorsque vous effectuez un appel à partir de SendOut. Le premier utilise notre numéro de part et le second utilise votre numéro de téléphone. \n\nChoisissez s\'il vous plaît</string>
+    <string name="button_default_registo">Numéro partagé</string>
+    <string name="button_caller_id_registo">Numéro de téléphone</string>
+    <string name="settings_def">Paramètres</string>
+    <string name="settings_registar">Registre d\'ID de l\'appelant</string>
+    <string name="toast_call_stuck">Coarse emplacement nécessaire pour permettre de vérifier votre connexion wi-fi.</string>
+    <string name="toast_permition_location">Coarse location needed to allow check your wi-fi connection.</string>
+    <string name="toast_permition_microfone">Autorisations de microphone nécessaires. Veuillez autoriser dans les menus de l\'application des fonctionnalités supplémentaires.</string>
+    <string name="toast_no_location_given">Aucun permis de localisation donné. Accédez aux paramètres et donnez l\'autorisation SendOut pour accéder à l\'emplacement.</string>
+
+</resources>

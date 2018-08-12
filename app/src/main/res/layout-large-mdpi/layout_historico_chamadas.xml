@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/historico_chamada_numero"
+            android:layout_marginTop="10dp"
+            android:text="244921785735"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/historico_chamada_data"
+            android:text="08/12/2016 12:10:33"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/historico_chamada_tempo"
+        android:text="2:14"
+        android:textSize="22sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp" />
+
+</RelativeLayout>
